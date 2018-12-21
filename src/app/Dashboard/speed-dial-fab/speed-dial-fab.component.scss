@@ -1,0 +1,98 @@
+.fab-container {
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  z-index: 100;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+
+  > div {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    margin-bottom: 5px;
+
+    button {
+      margin-bottom: 17px;
+    }
+  }
+}
+
+.fab-toggler {
+  float: right;
+  z-index: 100;
+  background: rgba(2,125,255,1);
+}
+
+#fab-dismiss {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 99;
+}
+
+mat-card{
+  padding-top: 4%;
+  padding-bottom: 4%; 
+  margin-right: 5px;
+  margin-bottom: 5px;
+  background-color:rgb(2,125,255);
+  color: white;
+}
+
+.fab-secondary{
+  background: rgb(2,125,255);
+  color: white;
+}
+
+.color1{
+  
+    background: #792359;
+      width: 55px;
+  height: 55px;
+  padding: 10px 12px;
+  font-size: 18px;
+  line-height: 1.33;
+  border-radius: 30px;
+  color: white;
+}
+
+
+.color2{
+    background: #FD3E81;
+      width: 55px;
+  height: 55px;
+  padding: 10px 12px;
+  font-size: 18px;
+  line-height: 1.33;
+  border-radius: 30px;
+  
+}
+
+
+.color3{
+    background: #7D70BA;
+      width: 55px;
+  height: 55px;
+  padding: 10px 12px;
+  font-size: 18px;
+  line-height: 1.33;
+  border-radius: 30px;
+  
+}
+
+.material-icons{
+  color: white;
+}
+
+.fab-btn{
+  position: relative;
+  ;
+}
+
+mat-cards{
+  float: left;
+}

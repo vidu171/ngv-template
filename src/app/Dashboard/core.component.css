@@ -1,0 +1,37 @@
+
+
+.navbar{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    background: rgb(2,125,255);
+background: linear-gradient(68deg, rgba(2,125,255,1) 90%, rgba(57,153,255,1) 100%);
+}
+
+.navbar:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+.box{
+    margin-top: 10px;
+    padding: 2px 16px;
+}
+
+a{
+    color: white!important;
+}
+
+
+fa{
+  -webkit-animation: spin 1s infinite linear;
+  animation: spin 1s infinite linear;
+    font-size: 1.2em;
+}
+.nav-logo{
+    width: 3em;
+}
+
+.brand{
+    font-size: 1.6em;
+    font-weight: bold;
+}

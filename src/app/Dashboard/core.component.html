@@ -1,0 +1,47 @@
+
+<div class="box">
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <!-- <mat-icon>home</mat-icon>   -->
+  <!-- <a class="navbar-brand" href="/">IAESTE</a> -->
+    <button class="navbar-toggler btn btn-outline-primary" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"  aria-expanded="false" aria-label="Toggle navigation" (click)="isCollapsed = !isCollapsed" [attr.aria-expanded]="!isCollapsed" aria-controls="navbarTogglerDemo02">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo02" [ngbCollapse]="isCollapsed">
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+        <!-- <li><a routerLink="/gc" routerLinkActive="active">Heroes</a></li> -->
+        <li class="nav-item active">
+          
+          <a class="nav-link"  routerLink="/gc" routerLinkActive="active"><fa name="archive" animation=""></fa><span class="nav-text"> Dashboard</span> <span class="sr-only">(current)</span></a>
+          
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/cobe" routerLinkActive="active"><fa name="globe"></fa> Tables</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" routerLink="/status" routerLinkActive="active"><fa name="list"></fa> Icons</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled"routerLink="/profile" routerLinkActive="active">
+            <fa name="address-card"></fa> Cards
+          </a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+          <a class="nav-link disabled brand" href="/status">
+             BOLOD LOGO
+          </a>
+        <!-- <img src="../../assets/logo.png" class="nav-logo"> -->
+       
+      </form>
+    </div>
+  </nav>
+
+
+</div>
+
+
+<router-outlet></router-outlet>
+
+<app-speed-dial-fab></app-speed-dial-fab>
